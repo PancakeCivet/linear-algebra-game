@@ -53,4 +53,4 @@ async def register(user: User):
 
 if __name__ == "__main__":
     data.clean()
-    uvicorn.run(app, port=8082)
+    uvicorn.run(app, port=8081)
